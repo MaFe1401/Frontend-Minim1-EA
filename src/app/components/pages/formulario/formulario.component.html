@@ -1,0 +1,57 @@
+<div class="row justify-content-center ">
+        <p style="font-size: 30px;">
+            Nombre:
+            <input #nombre  name="nombre" id="nombre" type="text" placeholder="nombre" required style="margin-top: 30px;"><br>
+            
+        </p>
+    </div>
+    <div class="row justify-content-center">
+        <p style="font-size: 30px;">
+            Fecha:
+            <input #fecha  id="fecha" name="fecha" type="text" placeholder="fecha" required>
+        </p>
+    </div>
+    <div class="row justify-content-center">
+        <p style="font-size: 30px;">
+            dni:
+            <input #dni  id="dni" name="dni" type="text" placeholder="dni" required>
+        </p>
+    </div>
+    <div class="row justify-content-center">
+        <p style="font-size: 30px;">
+            telefono:
+            <input #telefono  id="telefono" name="telefono" type="text" placeholder="telefono" required>
+        </p>
+    </div>
+    <div class="row justify-content-center">
+        <p style="font-size: 30px;">
+            Fiebre?:
+            <input #fiebre  id="fiebre" name="fiebre" type="text" placeholder="fiebre" required>
+        </p>
+    </div>
+    <div class="row justify-content-center">
+        <p style="font-size: 30px;">
+            Tos?:
+            <input #tos  id="tos" name="tos" type="text" placeholder="tos" required>
+        </p>
+    </div>
+    <div class="row justify-content-center">
+        <p style="font-size: 30px;">
+            Dificultad respiratoria?:
+            <input #dificultadRespiratoria  id="dificultadRespiratoria" name="dificultadRespiratoria" type="text" placeholder="dificultadRespiratoria" required>
+        </p>
+    </div>
+    <div class="row justify-content-center">
+        <p style="font-size: 30px;">
+            Malestar General?:
+            <input #malestarGeneral  id="malestarGeneral" name="malestarGeneral" type="text" placeholder="malestarGeneral" required>
+        </p>
+    </div>
+    <div class="row justify-content-center ">
+        <button  (click)="onSubmit(nombre.value, fecha.value, dni.value, telefono.value, fiebre.value, tos.value, dificultadRespiratoria.value, malestarGeneral.value)" style="font-size: 30px; size: 40px;">
+            Submit
+        </button>
+    </div>
+        
+    
+
